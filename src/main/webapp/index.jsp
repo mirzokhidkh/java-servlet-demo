@@ -9,5 +9,22 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+
+
+<br/>
+<%--<form action="welcome" method="get">--%>
+<%--    Enter your name<input type="text" name="name"><br>--%>
+<%--    <input type="submit" value="login">--%>
+<%--</form>--%>
+
+<br/>
+
+<form action="welcome" method="post">
+    Name:<input type="text" name="name"/><br/>
+    Password:<input type="password" name="uPassword"/><br/>
+    <input type="submit" value="login"/>
+</form>
+
+
 </body>
 </html>

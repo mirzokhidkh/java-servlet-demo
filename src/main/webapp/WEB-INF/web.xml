@@ -7,9 +7,19 @@
         <servlet-name>demo</servlet-name>
         <servlet-class>uz.mkh.javaservletdemo.DemoServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>home</servlet-name>
+        <servlet-class>uz.mkh.javaservletdemo.HomeServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>demo</servlet-name>
-        <url-pattern>/hello</url-pattern>
+        <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
 </web-app>
