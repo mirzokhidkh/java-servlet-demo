@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6500e5a3-b6fc-45e8-a869-3f8aab3c2835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/HomeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6500e5a3-b6fc-45e8-a869-3f8aab3c2835" name="Changes" comment="RequestDispatcher is added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/MySearcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/searcher.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/DemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/DemoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
@@ -25,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -168,29 +168,35 @@
       <workItem from="1689088169052" duration="1203000" />
       <workItem from="1689258501206" duration="2529000" />
       <workItem from="1689602006352" duration="3209000" />
-      <workItem from="1690471030815" duration="1955000" />
+      <workItem from="1690471030815" duration="2391000" />
+      <workItem from="1690518909947" duration="1803000" />
+      <workItem from="1690781910854" duration="1588000" />
+      <workItem from="1690868395032" duration="1727000" />
+      <workItem from="1691039956119" duration="3234000" />
     </task>
+    <task id="LOCAL-00001" summary="RequestDispatcher is added">
+      <created>1690473249106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690473249106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/DemoServlet.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/uz/mkh/javaservletdemo/DemoServlet.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/index.jsp</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RequestDispatcher is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="RequestDispatcher is added" />
   </component>
 </project>

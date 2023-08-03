@@ -12,6 +12,11 @@
         <servlet-class>uz.mkh.javaservletdemo.HomeServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>searcher</servlet-name>
+        <servlet-class>uz.mkh.javaservletdemo.MySearcher</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>demo</servlet-name>
         <url-pattern>/welcome</url-pattern>
@@ -20,6 +25,11 @@
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>searcher</servlet-name>
+        <url-pattern>/searcher</url-pattern>
     </servlet-mapping>
 
 </web-app>

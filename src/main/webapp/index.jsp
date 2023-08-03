@@ -9,6 +9,9 @@
 </h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+<br/
+>
+<a href="searcher.jsp">Google Searcher</a>
 
 
 <br/>
